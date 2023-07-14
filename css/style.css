@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(250, 213, 236);
+}
+
+/* carrossel */
+#carouselExampleCaptions .carousel-inner .carousel-item {
+    height: 100vh;
+    color: #0f70b6;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+    color: #0f70b6;
+}
+
+.container-lg {
+    padding-top: 10%;
+    height: 100vh;
+}
+
+.my-img {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 0 auto;
+    top: 8%;
+    border-radius: 50%;
+    border: solid 1px #f79ce8;
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(232, 172, 206, 0.9));
+    filter: drop-shadow(0px 0px 20px rgba(218, 30, 114, 0.9));
+}
+
+
+.my-img h2 {
+    color: #c808a8;
+    margin: 1rem 0 2rem 0;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col h3 {
+    color: #c808a8;
+    margin: 4rem 0 2rem 10rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.col p {
+    text-align: left;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    margin: 0 0 0 22%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-md {
+    background: rgba(238, 121, 205, 0.183);
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.my-cont {
+    height: 6vh;
+    margin-top: 2rem;
+    text-align: center;
+    padding: .6rem;
+}
+
+@media (max-width: 425px) {
+
+    .my-img {
+        width: 12rem;
+        height: 12rem;
+        padding: 1rem;
+        margin: 3rem auto;
+        top: -10%;
+    }
+
+    .my-img h2 {
+        color: #c808a8;
+        margin: 1.5rem 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .my-img h4 {
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+
+    .container-lg .row .col h3 {
+        position: relative;
+        text-align: left;
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    .container-lg .row .col p {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+    #carouselExampleCaptions .carousel-inner .carousel-item {
+        height: 50vh;
+    }
+}
